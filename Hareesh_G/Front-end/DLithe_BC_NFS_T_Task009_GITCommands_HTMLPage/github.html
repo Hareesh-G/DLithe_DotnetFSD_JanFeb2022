@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Github</title>
+    </head>
+    <body style="background-color: rgba(235, 241, 245, 0.87);">
+        <h1 style="text-align: center;color: rgba(119, 0, 255, 0.801);">Github</h1>
+        <h3 style="color: rgb(255, 0, 128);">Introduction to the Github </h3>
+        GitHub is a code hosting platform for version control and collaboration. 
+        It lets you and others work together on projects from anywhere.
+        This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull requests. 
+        You'll create your own Hello World repository and learn GitHub's pull request workflow, a popular way to create and review code.
+
+        <p>Git handles content in snapshots, one for each commit, and knows how to apply or roll back the change sets between two snapshots. This is an important concept. 
+            In my opinion, understanding the concept of applying and rolling back change sets makes Git much easier to understand and work with.
+        </p>
+        Before uploading the program files in your Github Account first we have check the email and username of github account in a visual studio code.. 
+        Steps:
+        <pre>
+        1. open the visual studio code and click the Terminal 
+        2.In terminal tag select the new terminal and select the cmd.
+        3.use the commands
+         git --version
+         git config --global user.email "xyx@gmail.com"
+         git config --global user.name "usernmae"
+        4.with this commands we can check the vesrsion of Github, email addrress and username.
+        5.Move your website's files into the folder that GitHub just created when you made the repository.
+         IMPORTANT: Your homepage HTML file must be called "index.html", and it must exist in the top-level directory.
+        </pre>
+        <br>
+        Afeter checking user name and email address amd then we can perform the pull, push and commit operations in the Visual studio .
+        <pre>  
+        Step 1:Empty Folder(Dlithe)
+        Step 2. Go to VS code(open Folder- Dlithe)
+        Step 3.Create the new file(Index.html)
+        Step 4.Click on source control (Initialize respository)
+        Step 5.Stage all changes(+s symbol)
+        Step 6.Tick symbol(Message First commit)
+        Step 7. publish the branch
+        Step 8.Authentication process with Github
+        Step 9.publish (private, public)
+        </pre>  
+        <br>
+        <h3 style= "color: rgb(255, 0, 128);">Commands</h3> 
+Some of the basic commands used by GitHub are as follows:
+
+Commands for getting existing projects and create one new GITHUB projects:
+<br>
+<pre>
+Git init: Suppose developer needs to prepare one new repository in his local environment. For initializing the same they have to use init commands, which helps them for initializing GitHub project repository locally.
+Git clone ssh://something.com/[username]/[repository_name].git: Suppose developer needs to create one specific repository of GITHUB in their local copy from the specific remote location. Then they have to execute clone command for copying the same remote repository in the local environment in specific location.
+Some of the basic commands  for continuing with GITHUB:
+Git status: This GitHub command is mainly used for identifying GIT created status in local repository. It provides proper information between a syncing status of local and GITHUB repository to the end user.
+Git add [file_name.doc]: Used for adding one specific file in staging area.
+Git add -A: Adding all the files whether it is new or modified will be added in the staging area.
+Git commits -m [“message for commit”]: Commit all the required changes.
+Git rm -r [file_name.doc]: Helping for removing the file or any defined folder.
+</pre>
+<h3 style="color: rgb(255, 0, 128);">Intermediate Commands</h3>
+There are several other popular commands which are used by the developer, which are not very basic commands but working with GITHUB more, 
+those commands are very much required to execute. 
+Some of these kinds require intermediate commands which are mentioned below:
+
+Command for Branching and Merging multiple projects commits codebase:
+<pre>
+Git branch: This is very much a useful command for using any kind of GITHUB set up for your projects. It normally provides entire branch information in a list. Asterisk denotation is also given which points the exact current project.
+Git branch -a: This is helping for listing all the available branches considering all the locations of the branches, it can be local or remote. It is one of the key commands for identifying all the available projects in GITHUB environment.
+Git branch [branch_name]: Creating a new branch with new name.
+Git branch -d [branch_name]: Deleting a specific branch.
+Git push origin -delete [branch_name]: Deleting a branch from the remote environment.
+Git checkout -b [branch_name]: Helping to create one specific new branch and switching entire codebase to it.
+Git checkout -b [branch_name] origin/branch_name: Helping for cloning one remote branch and switching entire codebase to it.
+Git checkout [branch_name]: Switching to a defined branch.
+Git checkout - Switching to a specific branch that absolutely checks out last.
+Git checkout -[file_name.doc]: Avoiding or discarding the last changes in the specific file. 
+
+        </body>
+</html>
