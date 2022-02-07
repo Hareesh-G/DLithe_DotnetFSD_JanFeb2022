@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <style>
+        
+        body {
+           background-color: rgba(203, 212, 214, 0.178);
+           color: rgb(209, 39, 39);
+             }
+
+        /* On screens that are 993px wide or less, the background color is blue */
+        @media screen and (max-width: 900px) {
+        body {
+             background-color: blue;
+             color: rgb(187, 31, 117);
+             }
+             }
+
+        /* On screens that are 800px wide or less, the background color is olive */
+        @media screen and (max-width: 500px) {
+      body {
+            background-color: green;
+            color:aqua;
+            }
+        }
+    
+        /* navigation bar styling*/
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color: rgba(187, 16, 187, 0.897);
+            position: fixed;
+            height: 50%;
+            overflow: auto;
+        
+        }
+        /* navigation bar links */
+        li a{
+            display: grid;
+            color:rgb(32, 211, 243);
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        /* hover effect on navigation links*/
+        li a.active
+        {
+            background-color: rgb(201, 25, 49);
+            color: darkgreen;
+        }
+        li a:hover
+        {
+            background-color: rgb(27, 212, 76);
+            color: rgb(243, 46, 32);
+
+        }
+        
+
+    </style>
+    <body>
+        <h1 style="text-align: center;">Vertical navigation</h1>
+        <ul>
+            <li><a href="web.png">HTML</a></li>
+            <li><a href="communication.jpg">CSS</a></li>
+            <li><a href="task6.jpg">Home</a></li>
+        </ul>
+        <div style="margin-left: 25%; padding: 8px 16px;height: 1000px; color: rgb(255, 0, 98);">
+        <h2>Web Development</h2>
+        <h3>
+        Web programming, also known as web development, is the creation of dynamic web applications. 
+        Examples of web applications are social networking sites like Facebook or e-commerce sites like Amazon.
+        Web development refers to the building, creating, and maintaining of websites. 
+        It includes aspects such as web design, web publishing, web programming, and database management.
+         It is the creation of an application that works over the internet i.e. websites.
+         
+
+         
+
+
+        <br><br>
+            <img src="web.png" style="width: 200px;height: 200px;float: left;"/>
+        </h3>
+        </div>
+
+    </body>
+</html>
