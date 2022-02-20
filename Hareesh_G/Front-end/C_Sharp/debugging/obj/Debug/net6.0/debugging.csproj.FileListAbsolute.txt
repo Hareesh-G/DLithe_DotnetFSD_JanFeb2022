@@ -1,0 +1,15 @@
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\bin\Debug\net6.0\debugging.exe
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\bin\Debug\net6.0\debugging.deps.json
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\bin\Debug\net6.0\debugging.runtimeconfig.json
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\bin\Debug\net6.0\debugging.dll
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\bin\Debug\net6.0\ref\debugging.dll
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\bin\Debug\net6.0\debugging.pdb
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\obj\Debug\net6.0\debugging.csproj.AssemblyReference.cache
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\obj\Debug\net6.0\debugging.GeneratedMSBuildEditorConfig.editorconfig
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\obj\Debug\net6.0\debugging.AssemblyInfoInputs.cache
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\obj\Debug\net6.0\debugging.AssemblyInfo.cs
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\obj\Debug\net6.0\debugging.csproj.CoreCompileInputs.cache
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\obj\Debug\net6.0\debugging.dll
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\obj\Debug\net6.0\ref\debugging.dll
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\obj\Debug\net6.0\debugging.pdb
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\debugging\obj\Debug\net6.0\debugging.genruntimeconfig.cache
