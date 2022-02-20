@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            String and string methonds 
+        </title>
+        <style>
+            h1 {
+                background-color: aqua;
+                color: brown;
+            }
+            h3 {
+                background-color: antiquewhite;
+                color: rgb(76, 0, 255);
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Array methonds</h1><br>
+        <h3>1.splice() method</h3>
+        <p>The splice methond changes the contents of an array by removing or replacing existing elements or add a new elements in place</p>
+        <h4>Inserting an element</h4>
+        <script>
+            // Inserting an elements
+            const months = ['jan','feb','march','april','may','june'];
+            //splice index= splice(start,deletecount,item1,item2,item3)
+            months.splice(1,0,'dec');//inserts at index 1
+            document.write(months);// dec is added at index 1
+            document.writeln("<br/>");
+            months.splice(3,0,'sep');// inserts at index 3
+            document.write(months); // sep is added at index 3
+            document.writeln("<br/>");
+            months.splice(5,0,'Aug');// inserts at index 5
+            document.write(months); // Aug is added at index 5
+            document.writeln("<br/>");
+            </script>
+            <h4> removing an element</h4>
+            <script>
+            // replace or removing an element
+            months.splice(4,1,'july'); // removing 1 element at index 4
+            document.write(months);
+            document.writeln("<br/>");
+            months.splice(4,2,'oct');
+            document.write(months);
+
+            document.writeln("<br/>");
+            </script>
+            <h5>splice using var</h5>
+            <script>
+            var a = ['one','two','three','four','five'];
+            document.write(a);
+            document.writeln("<br/>");
+            var b = a.splice(2,2); // display after index 2 , two elements only
+            document.write(b);
+            document.writeln("<br/>");
+            document.write(a);
+            document.writeln("<br/>");
+            
+            a.splice(2,0,'three', 'four');
+            document.write(a);
+            document.writeln("<br/>");
+
+            
+
+        
+        </script>
+        <h3>2.contact method</h3>
+        <p>this method is used to merge two or more arrays</p>
+        <h4>example 1</h4>
+        <script>
+            const array1 = ['one','two','A','B','C'];
+            const array2 = ['html','D','E','F'];
+            const array3 = array1.concat(array2);
+            document.write(array3);
+
+        </script>
+        <h4> example 2</h4>
+        <script>
+            const letters =['a','b','c','d','e'];
+            const alphaNumeric = letters.concat(1,2,3,4);
+            document.write(alphaNumeric);
+        </script>
+        <h3>3.Entries method</h3>
+        <p>
+            The entries method returns a new array iterator object that contains the key/value pairs for each index in a array
+        </p>
+        <script>
+            var a = ['a','b','c','d','e','f'];
+            var iterator = a.entries();
+            for (let d of iterator)
+            {
+                document.write(d+"<br>");
+            }
+        </script>
+        <hr>
+        <h3>5.Reverse method</h3>
+        <p>this method reverses an array in place</p>
+        <script>
+            var a =[1,2,3,4,5,6,7];
+            document.write(a);
+            a.reverse();
+            document.writeln("<br/>");
+            document.write(a);
+            document.writeln("<br/>");
+            
+        </script>
+        <h3>6.indexOf, lastIndexOf</h3>
+        <p>The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.<br>
+        The lastIndexOf() method returns the last index (position) of a specified value</p>
+        <script>
+            var fruits = ["orange","apple","mango","banana","apple"];
+            var a=fruits.indexOf("apple");
+            document.write(a);
+            document.writeln("<br/>");
+            var a=fruits.lastIndexOf("banana");
+            document.write(a);
+        </script>
+        <hr>
+        <h3>7.To string</h3>
+        <p>this method returns an array as a comma seperated string</p>
+        <p id="demo"></p>
+        <script>
+            var numbers=["one","two","three","four","five"];
+            document.getElementById("demo").innerHTML=numbers.toString();
+
+        </script>
+        <hr>
+        <h3>8.join method</h3>
+        <p>
+            this method returns an array as a string. the element will be seperated by a specific seperator.
+            join does not original array
+        </p>
+        <script>
+            var fruits = ["orange","apple","mango","banana","apple"];
+            var a=fruits.join();
+            document.write(a);
+            
+            console.log(a);
+            console.log(fruits);
+        </script>
+        <h3>9.sort method</h3>
+        <p>this method sorts an array alphabetically</p>
+        <script>
+            var arr =[2, 5, 8525, 75,  1, 4]
+            document.write(arr.sort());
+            document.write(arr);
+
+        </script>
+        <hr>
+        <h3>10.filter method</h3>
+        <p>this method creates a new array with all elements that pass the test implemented by the provided
+
+        </p>
+        <script>
+            var words = ['hareesh','sreepadha','guna','sathya','lavanya'];
+            var result = words.filter(word => word.length == 9);
+            document.write(result);
+
+        </script>
+        <hr><hr>
+        <h1>string methods</h1>
+        <h3>1.chatAt</h3>
+        <script>
+            var str="webdesign";
+            document.write(str.charAt(2));
+
+
+        </script>
+        <hr>
+        <h3>2.concat method</h3>
+        <script>
+            var s1="Web";
+            var s2="applications";
+            var s3=s1.concat(s2);
+            document.write(s3);
+        </script>
+        <hr>
+        <h3>3.indexOf and lastIndexOf</h3>
+        <script>
+            var s1="web Development is used to develop different web pages";
+            var a=s1.indexOf("web");
+            document.write(a);
+            document.writeln("<br/>");
+            var b=s1.lastIndexOf("web");
+            document.write(b);
+        </script>
+        <hr>
+        <h3>4.toLowerCase</h3>
+        <p>input:uppercasse.<br>
+            output:lowercase
+        </p>
+        <script>
+            var s1 = "JAVASCRIPT";
+            var a=s1.toLowerCase();
+            document.write(a);
+            </script>
+            <hr>
+            <script>
+             var s1 ="webdevelopment";
+            
+            var n=s1.toUpperCase();
+            document.write(n);
+
+        </script>
+        <hr>
+        <h3>5.slice</h3>
+        <script>
+            var s1="webdevelopment";
+            var s2=s1.slice(2,5);
+            document.write(s2);
+        </script>
+        <hr>
+        <h3>6.trim</h3>
+        <p> this method is used to remove leading and trailing whitespaces from the string</p>
+        <script>
+            var s1 ="      javascript     ";
+            var s2=s1.trim();
+            document.write(s2);
+        </script>
+        <hr>
+        <h3>7.split</h3>
+        <p>this method is used to splits the String</p>
+        <script>
+            var str ="Hareesh Sreepadha Guna Sathya Jashva";
+            document.write(str.split(" "));
+        </script>
+        <br>
+        <h1>Math functions</h1>
+        
+
+
+<p id="demo1"></p>
+
+<script>
+    
+   //"use strict"; 
+   a=10;
+document.getElementById("demo1").innerHTML = 
+"<p><b>Math.E:</b> " + Math.E + "</p>" +
+"<p><b>Math.PI:</b> " + Math.PI + "</p>" +
+"<p><b>Math.SQRT2:</b> " + Math.SQRT2 + "</p>" +
+"<p><b>Math.SQRT1_2:</b> " + Math.SQRT1_2 + "</p>" +
+"<p><b>Math.LN2:</b> " + Math.LN2 + "</p>" +
+"<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+"<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>" +
+"<p><b>Math.Log10E:</b> " + Math.LOG10E + "</p>";
+</script>
+<hr>
+<script>
+    document.write(Math.round(5.7)+"<br>");
+    document.write(Math.round(-4.7)+"<br>");
+    document.write(Math.ceil(50.7)+"<br>");
+    document.write(Math.ceil(20.2)+"<br>");
+    document.write(Math.floor(20.7)+"<br>");
+    document.write(Math.trunc(20.7)+"<br>");
+    document.write(Math.sign(0)+"<br>");
+    document.write(Math.sign(-4.7)+"<br>");
+    document.write(Math.pow(4,2)+"<br>");
+    document.write(Math.sqrt(81)+"<br>");
+    document.write(Math.abs(-1)+"<br>");
+    document.write(Math.sin(1)+"<br>");
+    document.write(Math.cos(2)+"<br>");
+    document.write(Math.tan(1)+"<br>");
+    document.write(Math.min(0, 150, 30, 20,5623, -8, -200)+"<br>");
+    document.write(Math.max(0, 150, 30, 20, -8, -200,-4543)+"<br>");
+    document.write(Math.random()+"<br>");   
+    document.write(Math.log(5)+"<br>");  
+    //Math.floor(Math.random() * 10) returns a random integer between 0 and 9 (both included):
+    document.write(Math.floor(Math.random() * 10)+"<br>");
+     //0 to 99 (*100) 0 to 100 (*101) 0 to 10 (*11) 
+        
+</script>
+<hr>
+<h3>Hosting mechanism</h3>
+<script>
+    //function hosting
+    function sum(a,b)
+    {
+        return a+b;
+    }
+    document.write(sum(20,30)+"<br>");
+    // variable hosting
+    x=20;
+    var x;
+    document.write(x);
+    
+
+    
+</script>
+<hr>
+<h1>Date functions</h1>
+<p>
+    The JavaScript date object can be used to get year, month and day.
+     You can display a timer on the webpage by the help of JavaScript date object.
+
+You can use different Date constructors to create date object. 
+It provides methods to get and set day, month, year, hour, minute and seconds.</p>
+<hr>
+Current Date and Time :<span id="text"></span>
+<script>
+    var today=new Date();
+    document.getElementById('text').innerHTML=today;
+
+</script>
+<hr>
+<script>  
+    var date=new Date();  
+    var day=date.getDate();  
+    var month=date.getMonth()+1;  
+    var year=date.getFullYear();  
+    document.write("<br>Date is: "+day+"/"+month+"/"+year);  
+    </script>  
+    <hr>
+    Current Time: <span id="txt1"></span>  
+<script>  
+var today=new Date();  
+var h=today.getHours();  
+var m=today.getMinutes();  
+var s=today.getSeconds();  
+document.getElementById('txt1').innerHTML=h+":"+m+":"+s;  
+</script>  
+<hr>
+
+
+
+
+Current Time: <span id="txt2"></span>  
+<script>  
+window.onload=function()
+{
+    getTime();
+}  
+function getTime()
+{  
+var today=new Date();  
+var h=today.getHours();  
+var m=today.getMinutes();  
+var s=today.getSeconds();  
+// add a zero in front of numbers<10  
+m=checkTime(m);  
+s=checkTime(s);  
+document.getElementById('txt2').innerHTML=h+":"+m+":"+s;  
+setTimeout(function()
+{
+    getTime()
+},1000);//1 second  
+}  
+//setInterval("getTime()",1000);//another way  
+function checkTime(i){  
+if (i<10){  
+  i="0" + i;  
+ }  
+return i;  
+}  
+</script>  
+<hr>
+<hr>
+  
+		<p> This is an example of getting the difference between two dates using JavaScript. </p>
+        <p>Here the variable d1 stores the first date, and variable d2 stores the present date. 
+          The variable diff stores the difference between the time of both dates, 
+          </p>
+<script>
+
+var d1 = new Date("1/06/1999"); 
+var d2 = new Date(); 
+var diff = d2.getTime() - d1.getTime(); 
+
+var daydiff = (diff / 31536000000).toFixed(0);   
+document.write(" Total numbers of years since <b> 2nd October 1969 </b> is: <b> " + daydiff + " years </b>" ); 
+</script>
+<br>
+<hr>
+<h1>Errors in javascript</h1> 
+</body>
+<p id="errorMessage"></p>
+<p id="message"></p>
+
+<script>
+    try
+    {
+        //var result  =  Sum(10, 20); // Sum is not defined yet
+        var a=20;
+        
+    }
+    catch(ex)
+    {
+        document.getElementById("errorMessage").innerHTML = ex;
+    }
+    finally
+    {
+     document.getElementById("message").innerHTML = "finally block executed"+ a;
+    }
+</script>
+<hr>
+<p id="errorMessage1"></p>
+
+<script>
+    try
+    {
+        throw {
+            number: 200,
+            message: "Page not found"
+        };
+    }
+    catch(ex)
+    {
+        document.getElementById("errorMessage1").innerHTML = ex.number + "- " + ex.message;
+    }
+
+</script>
+<hr>
+<script type="text/javascript">
+
+     
+    window.printme(); 
+
+     
+  window.print() 
+
+</script>
+<hr>
+
+<script>
+var num = prompt("Enter a positive integer between 0 to 100");
+
+// Storing the time when execution start
+var start = Date.now();
+
+try 
+{
+if(num > 0 && num <= 100) 
+{
+    alert(Math.pow(num, num)+"<br>"); // the base to the exponent power
+} 
+else
+{
+    throw new Error("An invalid value is entered!");
+}
+} 
+catch(e) 
+{
+document.write(e.message);
+} 
+finally 
+{
+// Displaying the time taken to execute the code
+alert("Execution took: " + (Date.now() - start) + "ms");
+}
+
+</script>
+<hr>
+<h1>Arrays</h1>
+<script>
+    // Creating variables
+    var colors = ["Red", "Green", "Blue"]; 
+    var fruits = ["Apple", "Banana", "Mango", "Orange", "Papaya"];
+    
+    
+    
+    // Printing variable values
+    document.write(colors + "<br>");
+    document.write(fruits + "<br>");
+    
+    
+
+    document.write("Length of an array"+"<br>");
+    document.write(colors.length+"<br>");
+
+    document.write("Looping through an array"+"<br>");
+    // Iterates over array elements
+    for(var i = 0; i < fruits.length; i++)
+    {    
+        document.write(fruits[i] + "<br>"); // Print array element
+    }
+    
+    colors.push("Yellow");
+ 
+document.write(colors+"<br>"); // Prints: Red,Green,Blue,Yellow
+document.write(colors.length+"<br>"); // Prints: 4
+
+colors.push("Pink", "Voilet");
+colors.unshift("Yellow", "Grey");
+ 
+document.write(colors+"<br>"); // Prints: Yellow,Grey,Red,Green,Blue,Yellow,Pink,Voilet
+document.write(colors.length+"<br>"); // Prints: 8
+
+var last = colors.pop();
+ 
+document.write(last+"<br>"); // Prints: Violet
+document.write(colors.length+"<br>"); // Prints: 7
+document.write(colors+"<br>");
+
+var first = colors.shift();
+ 
+document.write(first+"<br>"); // Prints: Yellow
+document.write(colors.length+"<br>"); // Prints: 6
+document.write(colors+"<br>");
+
+
+
+
+
+    // Iterates over array elements
+    //for-of loop
+for(var fruit of fruits) 
+{    
+    document.write(fruit + "<br>"); // Print array element
+}
+//for-in loop
+document.write("for -in loop"+"<br>");
+for(var i in fruits) 
+{  
+    document.write(fruits[i] + "<br>");
+}
+    </script>
+
+   
+
+
+
+
+        
+
+    </body>
+</html>
