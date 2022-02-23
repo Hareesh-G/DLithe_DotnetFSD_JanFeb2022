@@ -1,0 +1,15 @@
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\bin\Debug\net6.0\partialclass.exe
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\bin\Debug\net6.0\partialclass.deps.json
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\bin\Debug\net6.0\partialclass.runtimeconfig.json
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\bin\Debug\net6.0\partialclass.dll
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\bin\Debug\net6.0\ref\partialclass.dll
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\bin\Debug\net6.0\partialclass.pdb
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\obj\Debug\net6.0\partialclass.GeneratedMSBuildEditorConfig.editorconfig
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\obj\Debug\net6.0\partialclass.AssemblyInfoInputs.cache
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\obj\Debug\net6.0\partialclass.AssemblyInfo.cs
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\obj\Debug\net6.0\partialclass.csproj.CoreCompileInputs.cache
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\obj\Debug\net6.0\partialclass.dll
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\obj\Debug\net6.0\ref\partialclass.dll
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\obj\Debug\net6.0\partialclass.pdb
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\obj\Debug\net6.0\partialclass.genruntimeconfig.cache
+E:\DLithe_DotnetFSD_JanFeb2022\Hareesh_G\Front-end\C_Sharp\partialclass\obj\Debug\net6.0\partialclass.csproj.AssemblyReference.cache
